@@ -1,0 +1,14 @@
+# python-gapic-reserved-names-checker
+
+Collects all fields from protos in [googleapis][] and checks if any of the fields matches a 
+user-given pattern. The result is a summary report that lists an API and the fields that
+match the pattern.
+
+# Usage
+
+1. Clone [googleapis][].
+2. Run `python python_reserved_names.py`.
+
+Output will be a text file under `python_reserved_names` folder.
+
+[googleapis]: https://github.com/googleapis
